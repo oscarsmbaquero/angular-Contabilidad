@@ -12,11 +12,11 @@ export class NavbarComponent implements OnInit{
   ngOnInit() {
     this.items = [
         {
-            label: 'File',
+            label: 'Gastos',
             icon: 'pi pi-fw pi-file',
             items: [
                 {
-                    label: 'New',
+                    label: 'Añadir Gasto',
                     icon: 'pi pi-fw pi-plus',
                     items: [
                         {
@@ -43,7 +43,7 @@ export class NavbarComponent implements OnInit{
             ]
         },
         {
-            label: 'Edit',
+            label: 'Facturas',
             icon: 'pi pi-fw pi-pencil',
             items: [
                 {
@@ -65,7 +65,7 @@ export class NavbarComponent implements OnInit{
             ]
         },
         {
-            label: 'Users',
+            label: 'Clientes',
             icon: 'pi pi-fw pi-user',
             items: [
                 {
@@ -129,7 +129,7 @@ export class NavbarComponent implements OnInit{
             ]
         },
         {
-            label: 'Quit',
+            label: 'Salir',
             icon: 'pi pi-fw pi-power-off'
         }
     ];
