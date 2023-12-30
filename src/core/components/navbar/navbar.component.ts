@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit{
                     items: [
                         {
                             label: 'Bookmark',
-                            icon: 'pi pi-fw pi-bookmark'
+                            icon: 'pi pi-fw pi-bookmark',
                         },
                         {
                             label: 'Video',
@@ -69,8 +69,9 @@ export class NavbarComponent implements OnInit{
             icon: 'pi pi-fw pi-user',
             items: [
                 {
-                    label: 'New',
-                    icon: 'pi pi-fw pi-user-plus'
+                    label: 'Añadir Cliente',
+                    icon: 'pi pi-fw pi-user-plus',
+                    routerLink:'clients/add',
                 },
                 {
                     label: 'Delete',
